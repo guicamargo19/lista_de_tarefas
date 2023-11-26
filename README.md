@@ -1,7 +1,7 @@
 ## Lista de Tarefas
 
-Lista para inserção de tarefas, feito em HTML5 e CSS3, com JavaScript e JQuery.
+Lista para inserção de tarefas, feito com HTML5/CSS3 e JavaScript com JQuery.
 
-Permite a inserção de tarefas em forma de lista, e após realizar alguma destas
+Permite a inserção de tarefas em forma de lista, e após concluir alguma destas
 tarefas, basta clicar sobre ela que a mesma recebe o efeito tachado sobre o texto,
-aplicando o efeito de "riscar da lista".
+simulando a ação de "riscar da lista".
