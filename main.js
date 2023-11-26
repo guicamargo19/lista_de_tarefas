@@ -16,3 +16,12 @@ $(document).ready(function() {
         $(this).toggleClass('tarefaRiscada');
     });
 });
+
+$(document).ready(function() {
+    
+    $('#apagar').on('click', function(event) {
+        event.preventDefault();
+
+        window.location.reload()
+    });
+});
