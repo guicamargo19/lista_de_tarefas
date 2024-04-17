@@ -3,35 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png">
     <title>Lista de Tarefas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="./assets/lista.png" alt="Emoji de uma lista">
-            <h1>Lista de Tarefas</h1>
+            <h1>Tarefas</h1>
         </header>
         
-        <form>
+        <form>            
             <input type="text" id="tarefa" required alt="Tarefa">
-            <button type="submit" id="cadastrar">Cadastrar</button>
-            <button type="button" id="apagar">Apagar tudo</button>
+            <div class="buttons">
+                <button type="submit" id="cadastrar">Cadastrar</button>
+                <button type="button" id="apagar">Apagar tudo</button>
+            </div>
         </form>
         <ul class='link'>
             <li><a></a></li>
         </ul>
     </div>
-    <footer>
-        <div>
-            <p>
-                2024 - &copy; Guilherme Camargo - Todos os direitos reservados
-            </p>
-        </div>
+    <footer class="direitos">
+        <script>document.write(new Date().getFullYear());</script> - &copy; 
+        <a href="https://portfolio-pink-omega-63.vercel.app/">
+            <strong>Portfólio Guilherme Camargo</strong>
+        </a> - Todos os direitos reservados
     </footer>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./main.js"></script>
